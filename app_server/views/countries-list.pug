@@ -1,0 +1,20 @@
+extends layout 
+block content
+  .row.banner
+    .col-12
+      h1= pageHeader.title
+        small &nbsp;#{pageHeader.strapline}
+  .row
+    .col-12.col-md-8
+      each detail in details
+        .card
+          .card-block
+            h4
+              a(href="/countries-list/info")= detail.name
+            p= 'Capital: ' + detail.capital
+            p= 'Population: ' + detail.population
+            p= 'Religions: ' + detail.religions
+            p= 'Currency: ' + detail.currency
+              
+    .col-12.col-md-4
+      p.lead Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.

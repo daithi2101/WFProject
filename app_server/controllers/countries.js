@@ -9,31 +9,31 @@ const countriesList = function(req, res) {
     details: [{
       name: 'Japan',
       capital: 'Tokyo',
-      population: '127,093,090',
+      population: 127093090,
       religions: ['Shinto', ' Buddhism', ' Christianity'],
       currency: 'Yen'
     }, {
       name: 'USA',
       capital: 'Washington D.C.',
-      population: '327,464,095',
+      population: 327464095,
       religions: ['Christianity', ' Judaism', ' Islam'],
       currency: 'Dollar'
     }, {
       name: 'Canada',
       capital: 'Ottawa',
-      population: '37,052,971',
+      population: 37052971,
       religions: ['Christianity', ' Non-religious', ' Islam'],
       currency: 'Canadian Dollar'
     }, {
       name: 'Australia',
       capital: 'Canberra',
-      population: '24,868,222',
+      population: 24868222,
       religions: ['Christianity', ' Anglican ', ' Islam'],
       currency: 'Australian Dollar'
     }, {
       name: 'China',
       capital: 'Ottawa',
-      population: '1,416,728,260',
+      population: 1416728260,
       religions: ['Non-religious / Chinese folk reliigion', ' Buddhism', ' Christianity'],
       currency: 'Renminbi'
     }]
